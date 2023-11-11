@@ -1,6 +1,7 @@
 count=0
-while :; do
-    speedtest-cli --no-upload
+while true; do
+    speedtest
+    sleep 2
     ((count++))
     if [ $count -eq 100 ]; then
         sleep 60
