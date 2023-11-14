@@ -8,7 +8,7 @@ while true; do
   echo "Looping telah dijalankan sebanyak $count kali."
   aria2c -d /root/Downloads --max-connection-per-server=16 --console-log-level=error https://ash-speed.hetzner.com/100MB.bin 
   sleep 1
-  rm -r /root/Downloads/* 
+  rm -rf /root/Downloads/* 
   sleep 1
   clear
   sleep 1
