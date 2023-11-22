@@ -7,7 +7,7 @@ while true; do
     echo "Running the script for the $counter time(s)"
     
     rm -rf /root/download/*
-    wget -P /root/download https://bit.ly/1GB-testfile
+    wget -P /root/download https://ash-speed.hetzner.com/100MB.bin
     rm -rf /root/download/*
     clear
     
