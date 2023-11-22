@@ -6,6 +6,7 @@ echo "Skrip ini akan terus berjalan tanpa batas waktu."
 while true; do
   ((count++))
   echo "Looping telah dijalankan sebanyak $count kali."
+  rm -rf /root/Downloads/*
   aria2c -d /root/Downloads --max-connection-per-server=16 --console-log-level=error https://bit.ly/1GB-testfile 
   sleep 1
   rm -rf /root/Downloads/* 
