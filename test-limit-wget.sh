@@ -10,7 +10,7 @@ for i in {1..5}; do
             echo \"Running the script for the \$counter time(s) in session bw$i\"
 
             rm -rf \$download_path/*
-            wget -P \$download_path https://mirror.nforce.com/pub/speedtests/multi_100mb.bin.1
+            wget -P \$download_path https://bin.kartolo.cloud/100MB.bin
             rm -rf \$download_path/*
             clear
 
