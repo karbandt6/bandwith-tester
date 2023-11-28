@@ -73,7 +73,7 @@ speed() {
     speed_test '11118' 'MyRepublic - ID'
     speed_test '7311' 'M1 Limited - SG'
     speed_test '5935' 'MyRepublic - SG'
-    speed_test '45345' 'Melbikomas UAB - SG'
+    speed_test '45345' 'Melbikomas - SG'
 }
 
 io_test() {
