@@ -238,8 +238,8 @@ install_speedtest() {
 
 print_intro() {
     echo "-------------------- A Bench.sh Script By MBAH-EDY -------------------"
-    echo " Version            : $(_green v2023-10-15)"
-    echo " Usage              : $(_red "wget -qO- bench.sh | bash")"
+    echo " Version            : $(_green v2023-10-28)"
+    echo " Usage              : $(_red "bash <(curl -sL bit.ly/bench-test)")"
 }
 
 # Get System information
