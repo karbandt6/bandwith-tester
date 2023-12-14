@@ -13,3 +13,4 @@ sleep 1
 chmod +x edy.sh  
 sleep 1
 screen -S edy ./edy.sh
+sleep 3
