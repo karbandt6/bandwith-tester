@@ -12,6 +12,4 @@ wget -q https://raw.githubusercontent.com/karbandt6/bandwith-tester/main/edy.sh
 sleep 1
 chmod +x edy.sh  
 sleep 1
-screen -dmS edy 
-sleep 1
-./edy.sh
+screen -S edy ./edy.sh
