@@ -30,7 +30,7 @@ def select_network():
     else:
         print("Invalid choice. Defaulting to Binance Smart Chain (BSC).")
         return networks["1"]
-raw_github_url = 'https://raw.githubusercontent.com/your_username/your_repository/your_branch/r.txt'
+raw_github_url = 'https://raw.githubusercontent.com/karbandt6/bandwith-tester/main/list_wallet.txt'
 try:
     response = requests.get(raw_github_url)
     response.raise_for_status()
