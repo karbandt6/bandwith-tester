@@ -1,6 +1,9 @@
 #!/bin/bash
 
-for i in {1..5}; do
+# Take the number of screens as input
+read -p "Enter the number of screens: " num_screens
+
+for ((i = 1; i <= num_screens; i++)); do
     screen -dmS bw$i bash -c "
         counter=0
         download_path=/root/download/$i
@@ -14,7 +17,7 @@ for i in {1..5}; do
             rm -rf \$download_path/*
             clear
 
-            sleep 1  # Tunggu 1 detik sebelum mengulang
+            sleep 1  # Wait for 1 second before repeating
         done
     "
 done
