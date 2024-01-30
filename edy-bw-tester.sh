@@ -1,6 +1,10 @@
 #!/bin/bash
 
-for i in {1..5}; do
+# Meminta input jumlah screen dari pengguna
+echo -n "Masukkan jumlah screen: "
+read jumlah_screen
+
+for ((i=1; i<=$jumlah_screen; i++)); do
     screen -dmS bw$i bash -c "
         counter=0
         download_path=/root/download/$i
